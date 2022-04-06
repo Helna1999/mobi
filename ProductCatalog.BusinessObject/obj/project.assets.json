@@ -5971,7 +5971,8 @@
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
-      "Swashbuckle.AspNetCore >= 5.0.0"
+      "Swashbuckle.AspNetCore >= 5.0.0",
+      "Swashbuckle.AspNetCore.Swagger >= 5.0.0"
     ]
   },
   "packageFolders": {
@@ -6043,6 +6044,10 @@
             "version": "[5.0.0, )"
           },
           "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "Swashbuckle.AspNetCore.Swagger": {
             "target": "Package",
             "version": "[5.0.0, )"
           }

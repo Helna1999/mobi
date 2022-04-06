@@ -25,16 +25,18 @@ namespace WebApp.Controllers
                     var readJob = result.Content.ReadAsAsync<IList<Product>>();
                     readJob.Wait();
                     product = readJob.Result;
-                }
-                else
-                {
-                    product = Enumerable.Empty<Product>();
-                    ModelState.AddModelError(string.Empty, "server error occured");
+                    List<string> Name = new List<string>();
+                    foreach (Product name in product)
+                    {
+                        Name.Add(name.Name);
+                    }
+                    ViewBag.list = Name;
                 }
 
-                }
+            }   
        
             return View(product);
         }
+       
     }
 }

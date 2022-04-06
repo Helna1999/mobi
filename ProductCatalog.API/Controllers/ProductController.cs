@@ -19,5 +19,6 @@ namespace ProductCatalog.API.Controllers
             ProductModel pr = new ProductModel();
             return pr.findAll();
         }
+        
     }
 }

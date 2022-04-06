@@ -2723,7 +2723,8 @@
           "Microsoft.EntityFrameworkCore.Relational": "5.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
           "ProductCatalog.Domain": "1.0.0",
-          "Swashbuckle.AspNetCore": "5.0.0"
+          "Swashbuckle.AspNetCore": "5.0.0",
+          "Swashbuckle.AspNetCore.Swagger": "5.0.0"
         },
         "compile": {
           "bin/placeholder/ProductCatalog.API.dll": {}
@@ -2742,7 +2743,8 @@
           "Microsoft.EntityFrameworkCore": "5.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
-          "Swashbuckle.AspNetCore": "5.0.0"
+          "Swashbuckle.AspNetCore": "5.0.0",
+          "Swashbuckle.AspNetCore.Swagger": "5.0.0"
         },
         "compile": {
           "bin/placeholder/ProductCatalog.Domain.dll": {}
@@ -9002,7 +9004,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
-      "ProductCatalog.API >= 1.0.0"
+      "ProductCatalog.API >= 1.0.0",
+      "Swashbuckle.AspNetCore.Swagger >= 5.0.0"
     ]
   },
   "packageFolders": {
@@ -9084,6 +9087,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[5.0.2, )"
+          },
+          "Swashbuckle.AspNetCore.Swagger": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           }
         },
         "imports": [

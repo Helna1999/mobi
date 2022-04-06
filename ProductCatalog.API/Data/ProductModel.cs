@@ -56,6 +56,7 @@ namespace ProductCatalog.API.ViewModel
             return _products;
         }
         
+
     }
 }
 
