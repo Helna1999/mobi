@@ -5976,24 +5976,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\apoolakkal\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\hskaria\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\apoolakkal\\source\\Example\\mobzone\\ProductCatalog.Repository\\ProductCatalog.Repository.csproj",
+      "projectUniqueName": "D:\\mob final1\\mobzone\\ProductCatalog.Repository\\ProductCatalog.Repository.csproj",
       "projectName": "ProductCatalog.Repository",
-      "projectPath": "C:\\Users\\apoolakkal\\source\\Example\\mobzone\\ProductCatalog.Repository\\ProductCatalog.Repository.csproj",
-      "packagesPath": "C:\\Users\\apoolakkal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\apoolakkal\\source\\Example\\mobzone\\ProductCatalog.Repository\\obj\\",
+      "projectPath": "D:\\mob final1\\mobzone\\ProductCatalog.Repository\\ProductCatalog.Repository.csproj",
+      "packagesPath": "C:\\Users\\hskaria\\.nuget\\packages\\",
+      "outputPath": "D:\\mob final1\\mobzone\\ProductCatalog.Repository\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\apoolakkal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\hskaria\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6062,18 +6057,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

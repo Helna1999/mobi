@@ -5999,24 +5999,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\apoolakkal\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\hskaria\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\apoolakkal\\source\\Example\\mobzone\\ProductCatalog.API\\ProductCatalog.API.csproj",
+      "projectUniqueName": "D:\\mob final1\\mobzone\\ProductCatalog.API\\ProductCatalog.API.csproj",
       "projectName": "ProductCatalog.API",
-      "projectPath": "C:\\Users\\apoolakkal\\source\\Example\\mobzone\\ProductCatalog.API\\ProductCatalog.API.csproj",
-      "packagesPath": "C:\\Users\\apoolakkal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\apoolakkal\\source\\Example\\mobzone\\ProductCatalog.API\\obj\\",
+      "projectPath": "D:\\mob final1\\mobzone\\ProductCatalog.API\\ProductCatalog.API.csproj",
+      "packagesPath": "C:\\Users\\hskaria\\.nuget\\packages\\",
+      "outputPath": "D:\\mob final1\\mobzone\\ProductCatalog.API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\apoolakkal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\hskaria\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6030,8 +6025,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\apoolakkal\\source\\Example\\mobzone\\ProductCatalog.Domain\\ProductCatalog.Domain.csproj": {
-              "projectPath": "C:\\Users\\apoolakkal\\source\\Example\\mobzone\\ProductCatalog.Domain\\ProductCatalog.Domain.csproj"
+            "D:\\mob final1\\mobzone\\ProductCatalog.Domain\\ProductCatalog.Domain.csproj": {
+              "projectPath": "D:\\mob final1\\mobzone\\ProductCatalog.Domain\\ProductCatalog.Domain.csproj"
             }
           }
         }
@@ -6089,12 +6084,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -6103,7 +6092,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,13 @@
+﻿
+#dropdown {
+    
+    padding-left: 8px;
+}
+.sidebar{
+    display:flex;
+    flex-direction:column;
+    border-right:1px solid;
+    flex:0 0 30%;
+}
+
+
