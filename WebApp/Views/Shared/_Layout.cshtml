@@ -10,86 +10,98 @@
     <link rel="stylesheet" href="~/css/SideBar.css" />
     <link rel="stylesheet" href="~/css/navigation-bar.css" />
     <link rel="stylesheet" href="~/css/footer.css" />
-    <link rel="stylesheet" href="~/css/Header.css" />
-    <link rel="stylesheet" href="~/css/_sidebar.css" />
-    <script src="~/js/site.js"></script>
-
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 </head>
 <body>
-    @*<header>*@
+    <header>
 
-        <!--<!--<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-    <!--<div class="container">
-        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Company</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-            <ul class="navbar-nav flex-grow-1">-->
-        <!----><!---->
-        <!---->
-        <!--@*<li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
-    </li>*@-->
-        <!--</ul>
-    </div>-->
-        <!--</div>-->
-        <!--</nav>-->
-        <!--</header>-->
-        <!-- As a link -->
+        @*<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Company</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
 
-        <partial name="_NavBar">
-            <div>
-                @RenderBody()
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </nav>*@
+
+        <!-- As a link -->
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-action="Index">MOBIZONE</a>
+                <div>
+                    <input class="input-group-lg" />
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
 
 
-            @*<partial name="_Sidebar">*@
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <a class="mr-3">Cart</a>
+                    <i class="fa-solid fa-user"></i>
+                    <a asp-action="Login">Account</a>
+                </div>
 
-                <partial name="_Footer">
+            </div>
+        </nav>
+        <div>
+            @RenderBody()
+        </div>
+    </header>
+    <footer class="border-top footer text-muted">
 
-                    @*<footer class="border-top footer text-muted">
+        <ul class="list">
+            <li>
 
-            <ul class="list">
 
-                <img src="~/css/image/MobiZone-logos_black.png" alt="Mobizone" style="width: 140px;"
+                <img src="~/css/Image/MobiZone-logos_black.png" alt=" Mobizone" style="height:100px; width:100px;"
                      class="float-left" />
 
+            </li>
+            <li class="about">
+                <a asp-controller="Home" asp-action="Company">Company</a>
+            </li>
+            <li class="about">
+                <a asp-controller="Home" asp-action="About">About</a>
+            </li>
+            <li class="about">
 
-                <li class="about">
-                    <a asp-controller="Home" asp-action="Company">Company</a>
+                <a asp-controller="Home" asp-action="Privacy ">Privacy Policy</a>
+            </li>
+            <li class="about">
 
-                <li class="about">
-                    <a asp-controller="Home" asp-action="About">About</a>
-                </li>
-                <li class="about">
-                    <a asp-controller="Home" asp-action="Privacy">Privacy Policy</a>
-                </li>
-                <li class="about">
-                    <a asp-controller="Home" asp-action="Contact">Contact</a>
+                <a asp-controller="Home" asp-action="Contact">Contact</a>
 
-                </li>
-                <hr>
+            </li>
 
-                <img src="~/css/image/copyright-38672_1280.png" alt="Mobizone" style="width:18px;" />
+            <hr>
+            <li>
+                <img src="~/css/Image/copyright-38672_1280.png" alt="Mobizone" style="height:18px; width:18px;" />
                 <a href=#> Mobizone private limited all right reserved</a>
 
-                </li>
+
+            </li>
+
+        </ul>
+
+    </footer>
 
 
-        </footer>*@
-
-                    
-                    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-                    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
